@@ -1,0 +1,60 @@
+{
+  "IntroDetails":{
+    "img":"http://sample.li/developer.png",
+    "NameOfEmployee":"SHAIK MOHAMMAD MUZMIL",
+    "Designation":"Web Developer",
+    "Locality":"AMARAVATHI",
+    "MobileNo":"+91 9441573950",
+    "EmailID":"muzu.muzmil@gmail.com"
+  },
+  "InfoDetails":{
+    "carrierobjectives":"To obtain employment with a company that offers a positive atmosphere to learn and implement new skills and technologies for the betterment of the organization.",
+    "Education":[
+      {
+        "SNo":1,
+        "Degree":"B.Tech",
+        "Institute":"MITS",
+        "PassingYear":"2021",
+        "CGPA":"9.3"
+      },
+      {
+        "SNo":2,
+        "Degree":"Intermediate",
+        "Institute":"Narayana",
+        "PassingYear":"2017",
+        "CGPA":"8.7"
+      },
+      {
+        "SNo":3,
+        "Degree":"SSC",
+        "Institute":"BES Model High School",
+        "PassingYear":"2015",
+        "CGPA":"7.7"
+      }
+
+    ],
+    "Skills":[
+      {
+        "skill":"JAVA"
+      },
+      {
+        "skill":"C++"
+      },
+      {
+        "skill":"PYTHON"
+      },
+      {
+        "skill":"HTML"
+      },
+      {
+        "skill":"CSS"
+      },
+      {
+        "skill":"PHOTOSHOP"
+      },
+      {
+        "skill":"PriemerePro"
+      }
+    ]
+  }
+}

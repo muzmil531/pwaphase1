@@ -1,0 +1,128 @@
+body{
+  background-color: pink;
+  display: flex;
+
+}
+.intro{
+  text-align: center;
+  background-color: skyblue;
+  border-style: groove;
+  border-radius: 50px;
+  width: 30%;
+}
+.intro:hover{
+  background-color: #ffc14e;font-weight: bold;font-size: 15px;
+}
+.imgs{
+  width: 70%;
+}
+.bio{
+  background-color: #144e4f;
+  padding-left: 10PX;
+  border-style: groove;
+  border-radius: 50px;
+  color: white;
+  width: 70%;
+}
+.bio:hover{
+  background-color: #ff5353;font-weight: bold;font-size: 15px;
+}
+.p1{
+  font-size: 25px;
+}
+h1{
+  color: yellow;
+}
+.bood{
+  background-color: red;
+  display: flex;
+  border-style: groove;border-radius: 50px;
+}
+/* Making mobile Mode */
+/* Changing backgroundcolor */
+@media  screen and (min-width:360px) and (max-width:640px) {
+body{
+  width: 100%;
+background-color: blue;
+flex-wrap: wrap;
+display: flex;
+text-align: center;
+
+
+}
+.intro{
+  width: 90%;
+  margin-left: 20px;
+  text-align: center;
+  background-color: skyblue;
+  border-style: groove;
+  border-radius: 50px;
+
+
+}
+.imgs{
+  width: 70%;
+}
+.bio{
+  background-color: #144e4f;
+  padding-left: 10PX;
+  border-style: groove;
+  border-radius: 50px;
+  color: white;
+}
+.p1{
+  font-size: 25px;
+}
+h1{
+  color: yellow;
+}
+.bood{
+  text-align: center;
+}
+
+/* Making tab Mode */
+/* Changing backgroundcolor */
+@media  screen and (min-width:641px) and (max-width:1020px) {
+body{
+  width: 100%;
+background-color: blue;
+flex-wrap: wrap;
+display: flex;
+text-align: center;
+  justify-content:space-around;
+
+}
+.intro{
+  width: 90%;
+  margin-left: 20px;
+  text-align: center;
+  background-color: skyblue;
+  border-style: groove;
+  border-radius: 50px;
+
+    justify-content:space-around;
+     background: #08627f69;
+     display: flex;
+     flex-wrap: wrap;
+
+
+}
+.imgs{
+  width: 70%;
+}
+.bio{
+  background-color: #144e4f;
+  padding-left: 10PX;
+  border-style: groove;
+  border-radius: 50px;
+  color: white;
+}
+.p1{
+  font-size: 25px;
+}
+h1{
+  color: yellow;
+}
+.bood{
+  text-align: center;
+}
